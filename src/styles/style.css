@@ -76,21 +76,16 @@ a{
         overflow: hidden;
         transition: var(--transition);
         padding: 0;
+        gap: 0;
     }
 
-    .page-links li a{
+    .page-link{
         transition: var(--transition);
-        padding-left: 20px;
-    }
-
-    .page-links li a:hover{
-        padding-left: 35px;
-        background-color: #8ECEE3;
-        color: #FFF;
+        padding: 10px 0px 10px 20px;
     }
 
     .show-links{
-        height: 148px;
+        height: 168px;
     }
 
     .social-media-links{
